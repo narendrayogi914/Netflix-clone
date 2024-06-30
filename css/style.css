@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+    
+
+}
+.body{
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.hero_section{
+  border-image:  fill 0 linear-gradient(#0001,#000)  ;
+    background-image: url(../background1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+.header_section{
+    border-image: fill  10 linear-gradient(rgba(19, 17, 17, 0.067),#020101);
+    filter:contrast(2);
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+
+}
+.logo_section{
+   position: sticky;
+
+    padding: 20px;
+    width: 200px;
+    margin-left: 150px;
+    margin-top: 5px;
+    color: rgb(50, 47, 48);
+    height: 24px;
+
+}
+.logo_section img{
+    width: 100%;
+    
+}
+
+
+.tool{  
+    margin-right: 150px;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+}
+.tool .language_translator{
+    margin-right: 50px;
+    border: 1px solid white;
+    background-color: #131716;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+.tool .language_translator select {
+    background-color: #131716;
+    border: none;
+    color: white;
+    
+}
+.tool .signup{
+    width: 70px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: red;
+}
+
+.tool .signup input{
+    background-color: red;
+    border: none;
+    color: white;
+    font-size: 15px;
+}
+.body{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.hero_content{
+
+    text-align: center;
+    margin-top: 170px;
+    color: white;
+}
+.hero_section h1{
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 50px;
+  Line-height: normal;
+  color: rgb(255, 255, 255);
+    
+}
+.hero_section p{
+    margin: 10px 0 15px 0;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: "Ubuntu", sans-serif;
+    
+}
+.hero_section h2{
+    font-weight: 400;
+    font-size: 20px;
+    font-family: "Ubuntu", sans-serif;
+
+}
+
+.anything{
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+/* Input container */
+.input-container {
+    position: relative;
+    margin: 20px;
+  }
+  
+  /* Input field */
+  .input-field {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border: 2px solid #ccc;
+    outline: none;
+    color: white;
+    background-color: transparent;
+  }
+  
+  /* Input label */
+  .input-label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 16px;
+    color: rgba(204, 204, 204, 0);
+    pointer-events: none;
+    transition: all 0.3s ease;
+  }
+  
+  /* Input highlight */
+  .input-highlight {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 0;
+    background-color: #007bff;
+    transition: all 0.3s ease;
+  }
+  
+  /* Input field:focus styles */
+  .input-field:focus + .input-label {
+    top: -20px;
+    font-size: 12px;
+    color: #007bff;
+  }
+  
+  .input-field:focus + .input-label + .input-highlight {
+    width: 100%;
+  }
+  
+.button {
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12px;
+    cursor: pointer;
+    border: 3px solid red;
+    background-color: red;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.137);
+  }
+  
+  .text {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: white;
+  }
+  
+  .arrow path {
+    fill: rgb(19, 19, 19);
+  }
+  
+  .button:hover .arrow {
+    animation: slide-in-left 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  }
+  
+  @keyframes slide-in-left {
+    0% {
+      transform: translateX(-8px);
+      opacity: 0;
+    }
+  
+    100% {
+      transform: translateX(0px);
+      opacity: 1;
+    }
+  }
+  
+  .button:active {
+    transform: scale(0.97);
+  }
+
+  .divider{
+    max-width: 100%;
+    height: 10px;
+    background-color: #171414;
+
+  }
+  .container{
+    background-color: #000000;
+    
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+  }
+  .container .data{
+  padding: 10rem;
+  font-size: 1.5rem;
+  p{
+    margin: 15px;
+    font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  }
+
+  }
+  .container  h1{
+    font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+    font-size: 3rem;
+  }
+.container .video{
+  margin: 0 50px 0 50px;
+}
+
+.netflix-container {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.netflix-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.netflix-plus-icon {
+  cursor: pointer;
+  font-size: 24px;
+  user-select: none;
+}
+
+.netflix-description {
+  display: none;
+  margin-top: 20px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+  
